@@ -93,11 +93,9 @@ function addLayer(layer, name, zIndex) {
 
         if (map.hasLayer(layer)) {
             map.removeLayer(layer);
-            map.removeLayer(gridlayer);
             this.className = '';
         } else {
             map.addLayer(layer);
-            map.addLayer(gridlayer);
             this.className = 'active';
         }
     };
