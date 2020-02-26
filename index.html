@@ -68,9 +68,9 @@
 var map = L.map('map').setView([-94.4385,40.9135], 4);
 var ui = document.getElementById('map-ui');
 
-addLayer(L.mapbox.tileLayer('alexbhill.hbkchle5'), 'Net Flow', 1);
-addLayer(L.mapbox.tileLayer('alexbhill.m0uq61mf'), 'In Flow', 2);
-addLayer(L.mapbox.tileLayer('alexbhill.99uqqy2j'), 'Out Flow', 3);
+addLayer(L.mapbox.tileLayer('alexbhill.county-to-county'), 'Net Flow', 1);
+addLayer(L.mapbox.tileLayer('alexbhill.county-to-county'), 'In Flow', 2);
+addLayer(L.mapbox.tileLayer('alexbhill.county-to-county'), 'Out Flow', 3);
 
 function addLayer(layer, name, zIndex) {
     layer
